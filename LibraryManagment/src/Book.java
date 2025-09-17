@@ -4,7 +4,7 @@ public class Book extends MediaItem implements Reservable {
     boolean isReserved;
 
 
-    Book (int id , String title , String author,String genre, boolean isReserved){
+    Book (int id , String title , String author,String genre){
         super(id , title , author );
         this.genre = genre ;
         this.isReserved = false ;
